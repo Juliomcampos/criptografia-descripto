@@ -35,7 +35,7 @@ function inputCriptografada() {
     exibirCriptografado.innerText = textoCriptografado;
     botaoCriptografar.disabled = true;
     botaoDescriptografar.disabled = true;
-    botaoCopiar.style.display = 'inline-block';
+    botaoCopiar.style.display = 'flex';
     document.querySelector('.resultado').classList.add('resultado__exibido');
 }
 
@@ -55,7 +55,7 @@ function inputDescriptografada() {
     exibirDescriptografado.innerText = textoDescriptografado;
     botaoCriptografar.disabled = true;
     botaoDescriptografar.disabled = true;
-    botaoCopiar.style.display = 'inline-block';
+    botaoCopiar.style.display = 'flex';
     document.querySelector('.resultado').classList.add('resultado__exibido');
 }
 

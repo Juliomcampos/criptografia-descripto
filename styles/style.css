@@ -179,6 +179,11 @@ main {
 
 .botaoCopiar {
     display: none;
+}
+
+.botaoCopiar{
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     padding: 24px;
     width: 328px;
@@ -257,6 +262,7 @@ footer {
         padding: 32px;
     }
 
+
     footer {
         padding-top: 40px;
         justify-content: center;
@@ -294,5 +300,13 @@ footer {
 
     .resultadoCriptografia__paragrafo{
         padding: 12px;
+    }
+
+    .resultado__exibido{
+        gap: 32px;
+    }
+
+    .botaoCopiar{
+        width: 279PX;
     }
 }
